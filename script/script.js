@@ -26,6 +26,7 @@ async function getData() {
             <div class="user-info">
                 <h4>${user.name.first} ${user.name.last}</h4>
                 <p>${user.location.city}, ${user.location.country}</p>
+            </div>
         `
 
         result.appendChild(li)
